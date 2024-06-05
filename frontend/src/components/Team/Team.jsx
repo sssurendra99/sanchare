@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import ava01 from "../../assets/images/ava-1.jpg";
 import ava02 from "../../assets/images/ava-2.jpg";
 import ava03 from "../../assets/images/ava-3.jpg";
+import ava06 from "../../assets/images/ava-6.jpg";
 
 const Team = () => {
   const settings = {
@@ -34,107 +35,90 @@ const Team = () => {
   };
   return (
     <Slider {...settings}>
-      <div className="team py-4 px-3">
-        <div className="team_Name d-flex align-items-center gap-4 mt-3">
+      <div className="px-3 py-4 team">
+        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Nimal Silva</h6>
-            <p>Customer</p>
+            <h6 className="mt-3 mb-0">Leo Perera</h6>
+            <p>Lead Travel Consultant</p>
           </div>
         </div>
 
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, ratione
-          saepe! Laboriosam, libero sunt illo quia perferendis hic, illum
-          officiis provident quae nihil mollitia delectus maxime eum. Tempora,
-          illo veritatis.
+        Leo is the visionary behind Sanchare, with over 15 years of experience in the travel industry. His passion for showcasing the beauty of Sri Lanka drives our mission to provide exceptional travel experiences.
         </p>
       </div>
 
-      <div className="team py-4 px-3">
-        <div className="team_Name d-flex align-items-center gap-4 mt-3">
+      <div className="px-3 py-4 team">
+        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Nimal Silva</h6>
-            <p>Customer</p>
+            <h6 className="mt-3 mb-0">Maya Fernandoa</h6>
+            <p>Head of Operations</p>
           </div>
         </div>
 
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, ratione
-          saepe! Laboriosam, libero sunt illo quia perferendis hic, illum
-          officiis provident quae nihil mollitia delectus maxime eum. Tempora,
-          illo veritatis.
+        Maya ensures everything runs smoothly at Sanchare. With a background in logistics and a keen eye for detail, she coordinates all our services to guarantee a seamless experience for our clients.
         </p>
       </div>
 
-      <div className="team py-4 px-3">
-        <div className="team_Name d-flex align-items-center gap-4 mt-3">
+      <div className="px-3 py-4 team">
+        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
           <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Nimal Silva</h6>
-            <p>Customer</p>
+            <h6 className="mt-3 mb-0">Ravi Jayasinghe </h6>
+            <p>Founder & CEO</p>
           </div>
         </div>
 
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, ratione
-          saepe! Laboriosam, libero sunt illo quia perferendis hic, illum
-          officiis provident quae nihil mollitia delectus maxime eum. Tempora,
-          illo veritatis.
+        Ravi is the visionary behind Sanchare, with over 15 years of experience in the travel industry. His passion for showcasing the beauty of Sri Lanka drives our mission to provide exceptional travel experiences.
         </p>
       </div>
 
-      <div className="team py-4 px-3">
-        <div className="team_Name d-flex align-items-center gap-4 mt-3">
+      <div className="px-3 py-4 team">
+        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+          <img src={ava06} className="w-25 h-25 rounded-2" alt="" />
+          <div>
+            <h6 className="mt-3 mb-0">Nisha Senanayake</h6>
+            <p>Marketing Manager</p>
+          </div>
+        </div>
+
+        <p>
+        Nisha brings Sanchare to life through innovative marketing strategies. With a flair for creativity and a deep understanding of the travel market, she connects us with adventurers eager to explore Sri Lanka.
+        </p>
+      </div>
+
+      <div className="px-3 py-4 team">
+        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Nimal Silva</h6>
-            <p>Customer</p>
+            <h6 className="mt-3 mb-0">Leo Perera</h6>
+            <p>Lead Travel Consultant</p>
           </div>
         </div>
 
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, ratione
-          saepe! Laboriosam, libero sunt illo quia perferendis hic, illum
-          officiis provident quae nihil mollitia delectus maxime eum. Tempora,
-          illo veritatis.
+        Leo is the visionary behind Sanchare, with over 15 years of experience in the travel industry. His passion for showcasing the beauty of Sri Lanka drives our mission to provide exceptional travel experiences.
         </p>
       </div>
 
-      <div className="team py-4 px-3">
-        <div className="team_Name d-flex align-items-center gap-4 mt-3">
+      <div className="px-3 py-4 team">
+        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Nimal Silva</h6>
-            <p>Customer</p>
+            <h6 className="mt-3 mb-0">Maya Fernandoa</h6>
+            <p>Head of Operations</p>
           </div>
         </div>
 
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, ratione
-          saepe! Laboriosam, libero sunt illo quia perferendis hic, illum
-          officiis provident quae nihil mollitia delectus maxime eum. Tempora,
-          illo veritatis.
+        Maya ensures everything runs smoothly at Sanchare. With a background in logistics and a keen eye for detail, she coordinates all our services to guarantee a seamless experience for our clients.
         </p>
       </div>
 
-      <div className="team py-4 px-3">
-        <div className="team_Name d-flex align-items-center gap-4 mt-3">
-          <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
-          <div>
-            <h6 className="mb-0 mt-3">Nimal Silva</h6>
-            <p>Customer</p>
-          </div>
-        </div>
-
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, ratione
-          saepe! Laboriosam, libero sunt illo quia perferendis hic, illum
-          officiis provident quae nihil mollitia delectus maxime eum. Tempora,
-          illo veritatis.
-        </p>
-      </div>
     </Slider>
   );
 };
