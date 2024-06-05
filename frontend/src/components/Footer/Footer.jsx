@@ -47,11 +47,8 @@ const Footer = () => {
           <Col lg="3">
             <div className="logo">
               <img src={logo} alt="" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Commodi, enim.
+              <p>Your Gateway to Unforgettable Travels
               </p>
-
               <div className="social_links d-flex align-items-center gap-4">
                 <span>
                   <Link to="#">
@@ -110,7 +107,7 @@ const Footer = () => {
                   Address:
                 </h6>
 
-                <p className="mb-0">Belihuloya, Balangoda</p>
+                <p className="mb-0">Colombo, Sri Lanka</p>
               </ListGroupItem>
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb=0 d-flex align-items-center gap-2">
@@ -120,7 +117,7 @@ const Footer = () => {
                   Email:
                 </h6>
 
-                <p className="mb-0">info@pearl.com</p>
+                <p className="mb-0">info@sanchare.com</p>
               </ListGroupItem>
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb=0 d-flex align-items-center gap-2">
@@ -135,7 +132,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
           <Col lg='12' className="text-center pt-5">
-            <p className="copyright">Copyrights {year} All rights reserved</p>
+            <p className="copyright">&copy; {year} All rights reserved</p>
           </Col>
         </Row>
       </Container>
