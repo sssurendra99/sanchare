@@ -14,19 +14,11 @@ const About = () => {
               <div className="content">
                 <h1>About Us</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Doloribus beatae tempore voluptatibus iusto blanditiis,
-                  repudiandae voluptates earum consequuntur ex, autem recusandae
-                  distinctio consectetur aspernatur id enim nesciunt molestias
-                  temporibus provident. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Quia provident accusantium saepe quaerat aut
-                  aliquam, ab corrupti! Rerum impedit nisi pariatur aspernatur.
-                  Molestias architecto temporibus minus pariatur molestiae
-                  suscipit distinctio.
+                Welcome to Sanchare, your ultimate travel companion for exploring the breathtaking beauty of Sri Lanka. At Sanchare, we are passionate about making your travel experiences seamless and unforgettable. Our platform is designed to provide you with comprehensive information about the best places to visit, along with easy booking options to make your journey hassle-free. Whether you're looking to explore the serene beaches, ancient temples, lush forests, or vibrant cities, Sanchare is here to guide you every step of the way. We are dedicated to bringing you the most accurate and up-to-date information, curated by our team of local experts who share your love for travel. Join us in discovering the wonders of Sri Lanka, and let Sanchare be your trusted partner in creating memories that will last a lifetime.
                 </p>
               </div>
               <div className="slider">
-                <h2>Our team</h2>
+                <h2>Our Team</h2>
                 <Team />
               </div>
             </Col>
@@ -46,34 +38,28 @@ const About = () => {
               <div className="ContactUs_content">
                 <h2>Ask how we can help you ...</h2>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
-                  commodi voluptatem autem magnam blanditiis tempora!
-                  <br />
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
-                  commodi voluptatem autem magnam blanditiis tempora!
-                  <br />
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Have questions or need assistance with your travel plans? Our team at Sanchare is here to help! Whether you need recommendations, booking assistance, or detailed information about destinations in Sri Lanka, just ask us. We're committed to making your travel experience smooth and enjoyable. Reach out and discover how we can assist you today!
                 </p>
 
-                <h2>Offline location</h2>
+                <h2 className="offline">Offline location</h2>
                 <p>
-                  Position 1 <br />
-                  dolor sit amet,
-                  <br /> consectetur adipiscing elit,
-                  <br /> sed do ei usmod tempor
-                  <br /> incididunt ut labore
+                  <br /> No. 45,
+                  <br /> Galle Road,
+                  <br /> Colombo,
+                  <br /> Sri Lanka.
                 </p>
 
                 <h2>Contact Information</h2>
-                <p>Email: pearl@info.com</p>
-                <p>Phone: +94 77 123 4567</p>
+                <p>Email: info@sanchare.com</p>
+                <p>Phone: +941122565</p>
 
                 <h2>Privacy Information</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, iste ab! Consectetur fugit possimus, dolorem facere
-                  et laboriosam molestiae ut aliquam corporis animi quasi
-                  asperiores architecto doloremque ipsa, consequatur quas.
+
+                  
+                At Sanchare, we prioritize your privacy. We protect your personal information and ensure a secure browsing experience. Learn more about our data practices in our privacy policy.
+
+
                 </p>
               </div>
             </Col>
@@ -120,7 +106,7 @@ const About = () => {
                       <option value="Country">Country</option>
                     </select>
                   </FormGroup>
-                  <Button className="btn primary__btn w-100 mb-1 mt-4" >Send</Button>
+                  <Button className="mt-4 mb-1 btn primary__btn w-100" >Send</Button>
                 </Form>
               </div>
             </Col>
