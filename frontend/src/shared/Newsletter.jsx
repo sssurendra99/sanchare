@@ -18,9 +18,7 @@ const Newsletter = () => {
               <button className="btn newsletter_btn">Subcribe</button>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Laboriosam maiores laudantium aspernatur. Perferendis, qui
-              maiores.
+            Hear from our satisfied travelers! Discover how Sanchare has helped countless adventurers create unforgettable memories in Sri Lanka. 
             </p>
           </div>
         </Col>
