@@ -49,7 +49,7 @@ const Footer = () => {
               <img src={logo} alt="" />
               <p>Your Gateway to Unforgettable Travels
               </p>
-              <div className="social_links d-flex align-items-center gap-4">
+              <div className="gap-4 social_links d-flex align-items-center">
                 <span>
                   <Link to="#">
                     <i className="ri-youtube-fill"></i>
@@ -78,7 +78,7 @@ const Footer = () => {
 
             <ListGroup className="footer_quick-links">
               {quick_links.map((item, index) => (
-                <ListGroupItem key={index} className="ps-0 border-0">
+                <ListGroupItem key={index} className="border-0 ps-0">
                   <Link to={item.path}>{item.display}</Link>
                 </ListGroupItem>
               ))}
@@ -89,7 +89,7 @@ const Footer = () => {
 
             <ListGroup className="footer_quick-links">
               {quick_links2.map((item, index) => (
-                <ListGroupItem key={index} className="ps-0 border-0">
+                <ListGroupItem key={index} className="border-0 ps-0">
                   <Link to={item.path}>{item.display}</Link>
                 </ListGroupItem>
               ))}
@@ -99,39 +99,39 @@ const Footer = () => {
             <h5 className="footer_link-title">Contact</h5>
 
             <ListGroup className="footer_quick-links">
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+              <ListGroupItem className="gap-3 border-0 ps-0 d-flex align-items-center">
                 <h6 className="mb=0 d-flex align-items-center gap-2">
                   <span>
                     <i className="ri-map-pin-fill"></i>
                   </span>
-                  Address:
+                  Address
                 </h6>
 
                 <p className="mb-0">Colombo, Sri Lanka</p>
               </ListGroupItem>
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+              <ListGroupItem className="gap-3 border-0 ps-0 d-flex align-items-center">
                 <h6 className="mb=0 d-flex align-items-center gap-2">
                   <span>
                   <i className="ri-mail-fill"></i>
                   </span>
-                  Email:
+                 Email;;;;
                 </h6>
 
-                <p className="mb-0">info@sanchare.com</p>
+                <p className="mb-0 ">info@sanchare.com</p>
               </ListGroupItem>
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+              <ListGroupItem className="gap-3 border-0 ps-0 d-flex align-items-center">
                 <h6 className="mb=0 d-flex align-items-center gap-2">
                   <span>
                   <i className="ri-phone-fill"></i>
                   </span>
-                  Phone:
+                  Phone::
                 </h6>
 
                 <p className="mb-0">+941122565</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
-          <Col lg='12' className="text-center pt-5">
+          <Col lg='12' className="pt-5 text-center">
             <p className="copyright">&copy; {year} All rights reserved</p>
           </Col>
         </Row>
