@@ -59,14 +59,14 @@ const Header = () => {
         <Row>
           <div className="nav_wrapper d-flex align-items-center justify-content-between">
             {/* logo start */}
-            <div className="logo">
-              <img src={logo} alt="" />
+            <div className="logos">
+              <img src={logo} alt="" width="90px" height="90px" />
             </div>
             {/* logo end */}
 
             {/* Nav bar start */}
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-              <ul className="menu d-flex align-items-center gap-5">
+              <ul className="gap-5 menu d-flex align-items-center">
                 {nav_links.map((item, index) => (
                   <li className="nav_item" key={index}>
                     <NavLink
@@ -82,8 +82,8 @@ const Header = () => {
               </ul>
             </div>
             {/* Nav bar start */}
-            <div className="nav_right d-flex align-items-center gap-4">
-              <div className="nav_btns d-flex align-items-center gap-4">
+            <div className="gap-4 nav_right d-flex align-items-center">
+              <div className="gap-4 nav_btns d-flex align-items-center">
                 {user ? (
                   <>
                     <h5 className="mb-0">{user.username}</h5>

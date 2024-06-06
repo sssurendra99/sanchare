@@ -3,12 +3,18 @@
     height: 80px;
     line-height: 80px;
 }
-.logo img{
-    width: 15%;
+.logos img{
+    width: 100%;
+    padding-bottom: 15px;
+  
 }
 
 .menu{
     margin-bottom: 0;
+    padding-bottom: 15px;
+}
+.nav_right{
+    padding-bottom: 15px;
 }
 
 .nav_item a{
@@ -17,6 +23,9 @@
     font-weight: 500;
     font-size: 1.1rem;
     border: none;
+    padding-bottom: 15px;
+  
+  
 }
 .nav_item a:hover{
     color: inherit;
