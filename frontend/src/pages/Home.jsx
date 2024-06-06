@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/home.css";
 
 import { Container, Row, Col } from "reactstrap";
-import heroImg from "../assets/images/hero-img01.jpg";
-import heroImg02 from "../assets/images/hero-img02.jpg";
+import heroImg from "../assets/images/exp-1.jpg";
+import heroImg02 from "../assets/images/exp-2.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
 import experienceImg from "../assets/images/experience.png"
 
@@ -43,12 +43,12 @@ const Home = () => {
               </div>
             </Col>
             <Col lg="6">
-              <div className="hero_img-box hero_video-box mt-4">
+              <div className="mt-4 hero_img-box hero_video-box">
                 <video src={heroVideo} autoPlay loop muted />
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero_img-box mt-5">
+              <div className="mt-5 hero_img-box">
                 <img src={heroImg02} alt="" />
               </div>
             </Col> */}
@@ -105,7 +105,7 @@ const Home = () => {
                 </p>
               </div>
 
-              <div className="counter_wrapper d-flex align-items-center gap-5">
+              <div className="gap-5 counter_wrapper d-flex align-items-center">
                 <div className="counter_box">
                   <span>12K+</span>
                   <h6>Successful Trips</h6>
@@ -121,9 +121,12 @@ const Home = () => {
               </div>
             </Col>
             <Col lg="6">
-              <div className="experience_img">
-                <img src={experienceImg} />
+            <div className="exp-box">
+            <div className="experience_img">
+                <img src={heroImg02} alt="" width='100%' height="100%" />
               </div>
+            </div>
+             
             </Col>
           </Row>
         </Container>

@@ -27,6 +27,7 @@
 .hero{
     background-image: url(./../assets/images/homeback.jpg);
     background-size: 100%;
+    margin-bottom: 80px;
 }
 
 .subtitle{
@@ -70,6 +71,18 @@
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
+}
+.exp-box{
+    
+    
+
+}
+.experience_img{
+   
+    margin-top: 49px;
+    border-radius: 45px 15px 45px 15px;
+    
+    
 }
 
 .counter_box h6{
